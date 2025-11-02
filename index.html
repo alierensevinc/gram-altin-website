@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-M">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anlık Gram Altın Fiyatları - Hızlı ve Sade Takip</title>
+    <meta name="description" content="Piyasayı takip etmenin en hızlı yolu. Uygulamayı açmadan, ana ekran widget'ları ile anlık gram altın, çeyrek, gümüş ve borsa fiyatlarını görün.">
+    
+    <style>
+        /* Modern Reset */
+        :root {
+            --dark-bg: #121212;
+            --card-bg: #1e1e1e;
+            --text-primary: #ffffff;
+            --text-secondary: #b3b3b3;
+            --brand-yellow: #FDEE00; /* Ekran görüntülerinizdeki sarı renk */
+            --border-color: #333;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--dark-bg);
+            color: var(--text-primary);
+            line-height: 1.6;
+            text-align: center;
+        }
+
+        /* Ana İçerik Alanı */
+        .container {
+            max-width: 960px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* Header */
+        header {
+            padding: 40px 0;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            color: var(--text-primary);
+            margin-bottom: 10px;
+        }
+        
+        /* Ekran görüntülerinizden gelen uygulama adı */
+        .app-name {
+            font-size: 1.5rem;
+            color: var(--brand-yellow);
+            font-weight: 700;
+            letter-spacing: 1px;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            font-size: 1.3rem;
+            color: var(--text-secondary);
+            font-weight: 300;
+            margin-bottom: 30px;
+        }
+
+        /* Mağaza Butonları */
+        .store-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-bottom: 40px;
+        }
+
+        .store-button {
+            display: inline-block;
+            padding: 12px 24px;
+            background-color: #fff;
+            color: #000;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: 600;
+            transition: transform 0.2s ease;
+        }
+
+        .store-button:hover {
+            transform: scale(1.05);
+        }
+        
+        /* Hero Görsel */
+        .hero-image {
+            max-width: 300px;
+            margin: 0 auto 40px auto;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+        }
+
+        /* Özellikler Bölümü */
+        .features {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+            margin-top: 60px;
+        }
+
+        .feature {
+            flex-basis: 300px;
+            flex-grow: 1;
+            background-color: var(--card-bg);
+            padding: 30px;
+            border-radius: 12px;
+            border: 1px solid var(--border-color);
+        }
+        
+        .feature img {
+            max-width: 250px; /* Görsellerinizi buraya göre ayarlayın */
+            border-radius: 15px;
+            margin-top: 20px;
+        }
+
+        .feature h2 {
+            font-size: 1.5rem;
+            color: var(--brand-yellow);
+            margin-bottom: 15px;
+        }
+
+        .feature p {
+            color: var(--text-secondary);
+            font-size: 1rem;
+        }
+
+        /* Footer */
+        footer {
+            margin-top: 80px;
+            padding: 40px 0;
+            border-top: 1px solid var(--border-color);
+        }
+
+        footer p {
+            color: var(--text-secondary);
+            margin-bottom: 20px;
+        }
+
+        footer a {
+            color: var(--text-primary);
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* Mobil Uyum */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2rem;
+            }
+            .app-name {
+                font-size: 1.3rem;
+            }
+            .subtitle {
+                font-size: 1.1rem;
+            }
+            .store-buttons {
+                flex-direction: column;
+                align-items: center;
+            }
+            .store-button {
+                width: 80%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        
+        <header>
+            <div class="app-name">Anlık Gram Altın Fiyatları</div>
+            <h1>Piyasayı Takip Etmenin En Hızlı ve En Sade Yolu</h1>
+            <p class="subtitle">Uygulamayı açmadan, ana ekran widget'ları ile anlık gram altın, çeyrek ve gümüş fiyatlarını görün.</p>
+
+            <div class="store-buttons">
+                <a href="#" class="store-button">App Store'dan İndir</a>
+                <a href="#" class="store-button">Google Play'den Alın</a>
+            </div>
+
+            <img src="Simulator Screenshot - iPhone 16 - 2025-11-02 at 16.41.35.png" alt="Anlık Gram Altın Fiyatı Ana Ekran" class="hero-image">
+        </header>
+
+        <main>
+            <section class="features">
+                
+                <div class="feature">
+                    <h2>ANA EKRAN WIDGET'LARI</h2>
+                    <p>Tek tıkla erişim. Uygulamayı açmaya bile gerek kalmadan, en güncel gram altın ve gümüş fiyatlarını ana ekranınızdan anında takip edin.</p>
+                    <img src="Simulator Screenshot - iPhone 16 - 2025-11-02 at 16.41.54.png" alt="Gram, Gümüş ve Platin Widget">
+                </div>
+
+                <div class="feature">
+                    <h2>TÜM PİYASALAR BİR ARADA</h2>
+                    <p>Sadece gram altın değil. Çeyrek, 22 Ayar Bilezik, BIST 100 (XU100) ve diğer tüm değerli metaller tek bir sade listede.</p>
+                    <img src="Simulator Screenshot - iPhone 16 - 2025-11-02 at 16.42.20.png" alt="Tüm Piyasalar Ekranı">
+                </div>
+
+                <div class="feature">
+                    <h2>SADE VE HIZLI ARAYÜZ</h2>
+                    <p>Karmaşa yok, reklam yok. Göz yormayan koyu tema üzerinde, sadece ihtiyacınız olan verilere saniyeler içinde odaklanın.</p>
+                    <img src="Simulator Screenshot - iPhone 16 - 2025-11-02 at 16.41.35.png" alt="Sade Arayüz">
+                </div>
+
+            </section>
+        </main>
+
+        <footer>
+            <div class="footer-links">
+                <a href="privacy-policy.html">Gizlilik Politikası</a>
+                <a href="terms-and-conditions.html">Kullanım Koşulları</a>
+            </div>
+            <p>İletişim: <a href="mailto:sevinc.aeren@gmail.com">sevinc.aeren@gmail.com</a></p>
+            <p>© 2025 Anlık Gram Altın Fiyatları. Tüm hakları saklıdır.</p>
+        </footer>
+
+    </div>
+
+</body>
+</html>
