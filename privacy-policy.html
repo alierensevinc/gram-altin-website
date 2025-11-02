@@ -1,3 +1,121 @@
+<style>
+  /*
+  Stil Dosyası: terms-and-conditions.css
+  Uygulama: Anlık Gram Altın Fiyatları
+  Tema: Koyu (Dark Mode), Sade, Profesyonel
+*/
+
+/* === Temel Ayarlar === */
+:root {
+    --dark-bg: #121212;
+    --card-bg: #1e1e1e;
+    --text-primary: #ffffff;
+    --text-secondary: #b3b3b3;
+    --brand-yellow: #FDEE00; /* Ana marka rengi (Linkler için) */
+    --border-color: #333;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background-color: var(--dark-bg);
+    color: var(--text-secondary);
+    line-height: 1.7;
+    padding: 20px;
+    margin: 0;
+}
+
+/* === Ana İçerik Konteyneri === */
+/* Metnin çok genişleyip okunmasını zorlaştırmaması için */
+h1, h2, h3, p, ul {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* === Başlıklar === */
+h1 {
+    color: var(--text-primary);
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid var(--border-color);
+}
+
+h2 {
+    color: var(--text-primary);
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    color: var(--text-primary);
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+/* === Paragraflar === */
+p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+/* === Listeler === */
+ul {
+    margin-left: 20px; /* Madde işaretleri için iç boşluk */
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+li p {
+    margin-bottom: 0; /* Liste içindeki paragrafların alt boşluğunu sıfırla */
+}
+
+/* === Vurgular === */
+strong, b {
+    color: var(--text-primary); /* Vurgulu metinleri daha parlak yap */
+    font-weight: 600;
+}
+
+/* === Linkler === */
+a {
+    color: var(--brand-yellow);
+    text-decoration: none;
+    transition: opacity 0.2s ease;
+}
+
+a:hover {
+    text-decoration: underline;
+    opacity: 0.8;
+}
+
+/* === Mobil Uyum === */
+@media (max-width: 768px) {
+    body {
+        padding: 15px;
+    }
+    
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    h3 {
+        font-size: 1.2rem;
+    }
+}
+</style>
 <h1>Privacy Policy</h1>
 <p>Last updated: November 02, 2025</p>
 <p>This Privacy Policy describes Our policies and procedures on the collection, use and disclosure of Your information when You use the Service and tells You about Your privacy rights and how the law protects You.</p>
